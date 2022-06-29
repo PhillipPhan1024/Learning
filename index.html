@@ -1,0 +1,122 @@
+<!-- HTML starter -->
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> First Page </title>
+        <link href="layout.css" rel="stylesheet" type="text/css"> 
+    </head>
+    <body bgcolor="FFFFFF">
+        <header>
+            <h1><span>About Me</span></h1>
+            <h3><span>Small About Me</span></h3>
+        </header>
+        
+        <p>
+            <font color="000099">
+            Hey Im <strong>Alex</strong>. Code is cool: <a href="http://www.sololearn.com"> Learn Playing </a>
+            </font>
+        </p>
+        <p class="quote">"Declare variables, not war"</p>
+        <p align="center"> this is a text <br /> </p>
+        
+        <!-- Table and formatting it -->
+        <table border ="2">
+        <tr>
+            <th>Day</th>
+            <th>Mon</th>
+        </tr>
+        <tr>
+            <td class = "selected">Learn</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2">Orange</td>
+        </tr>
+        </table>
+
+        <br />
+<!-- auto formats hyper links -->
+        <nav>
+            <a href="#">HTML</a> |
+            <a href="#">CSS</a> |
+            <a href="#">JavaScript</a> |
+            <a href="#">Python</a>
+        </nav>
+
+        <br />
+<!-- Article/blog style stuff -->
+        <article>
+            <h1>Welcome</h1>
+            <section>
+                <h1>Heading</h1>
+                <p>content</p>
+            </section>
+            <aside>
+                <p>
+                    purpose is for secondary content off to the side of something 
+                </p>
+            </aside>
+        </article>
+
+<!-- status bar -->
+        Status: <progress min = "0" max = "100" value = "50">
+        </progress>
+
+        <br />
+        <br /> 
+
+<!-- Text and submission -->
+        <form method ="POST" action="https://sololearn.com">
+            <label>Username</label>
+            <input type="text" name="username"/></br>
+            <label>Password</label>
+            <input type="text" name="password"/></br>
+            <textarea name="message"></textarea></br>
+            <input type="submit" name="submit"/>
+        </form>
+
+        <br />
+
+<!-- Forms stuff -->
+        <form autocomplete="off">
+            <label for="email">Your e-mail address: </label>
+            <input type="text" name="email"
+            placeholder="email@example.com" autofocus required/>
+            <input type="submit" value="Submit"/>
+            <br />
+
+            <!-- url and tel an option too-->
+            <input id="email" name="email" type="email" 
+            placeholder="email@example.com"/>
+            <br />
+            
+        </form>
+
+<!-- CSS stuff-->
+        <!-- id is one time class can be mult-->
+        <div id="intro">
+            <p> This paragraph is in the intro section.</p>
+        </div>
+        <p> This paragraph is not in the intro section.</p>
+        
+        <div id="test">
+            <p> This paragraph is in the intro section.</p>
+        </div>
+
+        <div id="test">
+            <p>a</p>
+        </div>
+
+        <div>
+            <p class="first">This is a <em>paragraph</em></p>
+            <p> This is the second paragraph. </p>
+         </div>
+         <p class="first"> This is not in the intro section</p>
+         <p> The second paragraph is not in the intro section. </p>
+<!--hi-->
+    </body>    
+</html>
+
+
+

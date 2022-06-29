@@ -1,0 +1,26 @@
+/*body {
+    background-color: powderblue;
+  }
+  h1 {
+    color: blue;
+  }
+  p {
+    color: red;
+    background-color: aqua;
+  }*/
+  body { /*helvetica neue is in quotes becauses it is more than one word*/
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+ }
+  #intro {
+    color:white;
+    background-color: gray;
+  }
+  #test p{
+    color:blue;
+    background-color: gray;
+  }
+  .first em{
+    font-size: 200%;
+    color: pink;
+    background-color: gray;
+  }

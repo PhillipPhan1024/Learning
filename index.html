@@ -121,12 +121,11 @@
 
             var i = 0;
             for(; i < 10; i++) {
-                document.write(i);
+                document.write(i + "<br/>");
             }
-            console.log("test");
 
             /*var name = prompt("Enter a number");
-            alert(name);s
+            alert(name);
 
             var conf = confirm("Do you really want to leave this page?");
             if(conf == true) {
@@ -137,6 +136,20 @@
             }*/
 
             alert("Computer");
+            
+            var name, location, changeName;
+            function store(name, location) {
+                this.name = name;
+                this.location = location;
+                this.changeName = function (name) {
+                    this.name = name;
+                }
+            }
+
+            var p = new store("711", "Westheimer");
+            p.changeName("Chevron")
+            document.write("<br/>" + p.name);
+            
          </script>
     </body>    
 </html>
